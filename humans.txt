@@ -5,16 +5,18 @@ exclude: 'yes'
 ---
 
 /* TEAM */
-Developer & Designer: Josh Gerdes
-Twitter: @joshgerdes
-Site: http://joshgerdes.com
-Location: Minneapolis, MN, USA
-						
+    Name: Aliaksandr Belik
+    Site: https://aliesbelik.github.io
+    Location: Minsk, Belarus
+
 /* THANKS */
-Name: Dale Anthony
+    Name: Josh Gerdes
+    Site: https://github.com/joshgerdes/jekyll-uno
 
 /* SITE */
-Last update: {{ site.time | date: "%Y/%m/%d" }}
-Standards: HTML5, CSS3
-Components: Jekyll
-Software: Sublime Text, Photoshop
+    Last update: {{ site.time }}
+    Revision: {{ site.github.build_revision }}
+    Language: English
+    Standards: HTML5, CSS3
+    Components: Jekyll
+    Software: Sublime Text
