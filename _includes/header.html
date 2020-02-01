@@ -8,7 +8,7 @@
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
-        <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
+        <a href="{{ site.baseurl }}/" title="Home of {{ site.title }}">
           <img src="{{ site.baseurl }}/images/profile.jpg" class="user-image" alt="My Profile Photo">
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
@@ -20,9 +20,13 @@
 
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="A bit more about things I find important" class="blog-button">More</a></li>
+              <li class="navigation__item"><a href="{{ site.baseurl }}/about" title="About me" class="blog-button">/about</a></li>
+              <li class="navigation__item"><a href="{{ site.baseurl }}/projects" title="Projects" class="blog-button">/projects</a></li>
+              <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="A bit more about things I find important" class="blog-button">/more</a></li>
             </ul>
           </nav>
+          
+          <hr class="panel-cover__divider panel-cover__divider--secondary">
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
