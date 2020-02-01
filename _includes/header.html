@@ -37,6 +37,16 @@
               </li>
             {% endif %}
 
+            {% if site.author.stackoverflow_username %}
+              <!-- Stack Overflow -->
+              <li class="navigation__item">
+                <a href="https://stackoverflow.com/story/{{ site.author.stackoverflow_username }}" title="{{ site.author.stackoverflow_username }} on Stack Overflow" target="_blank">
+                  <i class="icon icon-social-stack-overflow"></i>
+                  <span class="label">Stack Overflow</span>
+                </a>
+              </li>
+            {% endif %}
+
             {% if site.author.linkedin_username %}
               <!-- LinkedIn -->
               <li class="navigation__item">
