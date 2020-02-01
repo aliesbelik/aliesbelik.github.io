@@ -9,10 +9,10 @@ baseurl: ''
 author:
   name: 'Aliaksandr Belik'
   email: alies.belik@gmail.com
-  # twitter_username: your-twitter-name
-  # facebook_username: your-facebook-name
   github_username: aliesbelik
   linkedin_username: aliaksandrbelik
+  # twitter_username: your-twitter-name
+  # facebook_username: your-facebook-name
 
 defaults:
   -
