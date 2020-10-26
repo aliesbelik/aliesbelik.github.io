@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/veslefrik
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://aliesbelik.github.io
+  * I am veslefrik (https://keybase.io/veslefrik) on keybase.
+  * I have a public key ASAPPXhZTP5qs5wwaZJ4xYEoGMNZ8Rt0YvMAewQ0MaT3wwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200f3d78594cfe6ab39c30699278c5812818c359f11b7462f3007b043431a4f7c30a",
+      "host": "keybase.io",
+      "kid": "01200f3d78594cfe6ab39c30699278c5812818c359f11b7462f3007b043431a4f7c30a",
+      "uid": "a98e69be353c61fe710b4c714553b019",
+      "username": "veslefrik"
+    },
+    "merkle_root": {
+      "ctime": 1603737067,
+      "hash": "f506262cfd7aed6b434120f50e96c4fe965657e014a0f5ca2298241bfc61558e30abe85bdc9a6bcf96f776e73dd384cd09be9061f8ef5102a5b77761ea1f8eb2",
+      "hash_meta": "14474a69b2ff1eb7b55cff1ae6b087c1a66a3adc1d9193023ff7ba0e442ba2ef",
+      "seqno": 17934553
+    },
+    "service": {
+      "entropy": "aSzbaCdfe5gI6XEhd5LPVCit",
+      "hostname": "aliesbelik.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1603737125,
+  "expire_in": 504576000,
+  "prev": "2e7b3d4e84ff8223d76d44e519060768b92db9bb48d91bdeeef5e8a9554bee75",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDz14WUz+arOcMGmSeMWBKBjDWfEbdGLzAHsENDGk98MKp3BheWxvYWTESpcCBcQgLns9ToT/giPXbUTlGQYHaLktubtI2Rve7vXoqVVL7nXEIAXEBiMSIhBZ3BKnjO7EKSPbf1dbqEqeOT50J6AJUov5AgHCo3NpZ8RAlj00jGtX/Xpuz+vD86zE3f33oVruKY779M088sN3paF3jq+Un4uDCBjYTt7AjbGj8678QWPz7FVj4P7+MpIsAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINTJj+04emEQWJyZPH8jb3HNl2NxnPau9XtgbL4HvD/7o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/veslefrik
+
+==================================================================
