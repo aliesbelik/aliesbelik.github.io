@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi!
 
-My name is Aliaksandr Belik, and I am a Performance QA Engineer.<br>
+My name is Aliaksandr Belik, and I am a Performance Engineer.<br>
 This is my personal website. Think of it as an extended, modern CV.
 
 You can find me on [Github][1] and [StackOverflow][2].
