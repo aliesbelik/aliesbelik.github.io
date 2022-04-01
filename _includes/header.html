@@ -20,15 +20,17 @@
 
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/about" title="About me" class="blog-button">/about</a></li>
               <!--
+              <li class="navigation__item"><a href="{{ site.baseurl }}/about" title="About me" class="blog-button">/about</a></li>
               <li class="navigation__item"><a href="{{ site.baseurl }}/projects" title="Projects" class="blog-button">/projects</a></li>
               <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="A bit more about things I find important" class="blog-button">/more</a></li>
               -->
             </ul>
           </nav>
 
+          <!--
           <hr class="panel-cover__divider panel-cover__divider--secondary">
+          -->
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
@@ -46,7 +48,7 @@
             {% if site.author.stackoverflow_username %}
               <!-- Stack Overflow -->
               <li class="navigation__item">
-                <a href="https://stackoverflow.com/story/{{ site.author.stackoverflow_username }}" title="{{ site.author.stackoverflow_username }} on Stack Overflow" target="_blank">
+                <a href="https://stackoverflow.com/users/993246/{{ site.author.stackoverflow_username }}" title="{{ site.author.stackoverflow_username }} on Stack Overflow" target="_blank">
                   <i class="icon icon-social-stack-overflow"></i>
                   <span class="label">Stack Overflow</span>
                 </a>
@@ -66,7 +68,7 @@
 						{% if site.author.keybase_username %}
 						<!-- Keybase-->
 						<li class="navigation__item">
-							<a href="https://keybase.io/{{ site.author.keybase_username }}/key.asc" title="PGP Key on Keybase" target="_blank">
+							<a href="https://keybase.io/{{ site.author.keybase_username }}/key.asc" title="veslefrik on Keybase" target="_blank">
 								<i class="icon icon-key"></i>
 								<span class="label">Keybase</span>
 							</a>
