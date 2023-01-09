@@ -12,4 +12,4 @@ You can find me on [Github][1], [StackOverflow][2] or [LinkedIn][3].
 
 [1]:https://www.github.com/aliesbelik
 [2]:https://stackoverflow.com/users/993246/aliaksandr-belik
-[3]:https://www.linkedin.com/in/aliaksandrbelik/
+[3]:https://www.linkedin.com/in/aliaksandr-belik/
