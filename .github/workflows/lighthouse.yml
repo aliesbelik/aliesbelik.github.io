@@ -1,0 +1,29 @@
+name: Lighthouse Check
+
+on:
+  schedule:
+  - cron: "0 5 * * 3"    
+  workflow_dispatch:
+
+env:
+  websiteUrl: 'https://aliesbelik.github.io/'
+  outputDir: ${{ github.workspace }}/lh-artifacts
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Create artifacts dir
+      run: mkdir -p ${{ env.outputDir }}
+    - name: Lighthouse checks
+      uses: foo-software/lighthouse-check-action@v12.0.1
+      with:
+        urls: ${{ env.websiteUrl }}
+        outputDirectory: ${{ env.outputDir }}
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: Lighthouse reports
+        path: ${{ env.outputDir }}
