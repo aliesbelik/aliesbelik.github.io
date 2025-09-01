@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
     - name: Create artifacts dir
       run: mkdir -p ${{ env.outputDir }}
     - name: Lighthouse checks
