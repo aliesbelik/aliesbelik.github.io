@@ -23,7 +23,7 @@ jobs:
         urls: ${{ env.websiteUrl }}
         outputDirectory: ${{ env.outputDir }}
     - name: Upload artifacts
-      uses: actions/upload-artifact@v5
+      uses: actions/upload-artifact@v6
       with:
         name: Lighthouse reports
         path: ${{ env.outputDir }}
